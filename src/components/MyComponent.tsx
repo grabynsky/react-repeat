@@ -7,7 +7,10 @@ type MyComponentProps = {
 const MyComponent: FC<MyComponentProps> = ({text}) => {
     return (
         <div>
-            {text}
+            <h1 className="text-3xl font-bold underline">
+                {text}
+            </h1>
+
         </div>
     );
 };
