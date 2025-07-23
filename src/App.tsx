@@ -1,12 +1,13 @@
 import './App.css'
-import MyComponent from "./components/MyComponent.tsx";
+import CoursesTitle from "./components/CoursesTitle.tsx";
+import type {FC} from "react";
 
-function App() {
+const App: FC = () => {
     return (
         <>
-            <MyComponent text={'Hello 1'}/>
+            <CoursesTitle/>
         </>
-    )
-}
+    );
+};
 
-export default App
+export default App;
