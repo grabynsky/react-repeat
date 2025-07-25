@@ -1,6 +1,6 @@
 import type {FC} from 'react';
-import type {ICoursesAndDuration} from "../models/ICoursesAndDuration.ts";
 import styles from "./module-css/coures.module.css"
+import type {ICoursesAndDuration} from "../../models/ICoursesAndDuration.ts";
 
 type Props = {
     course: ICoursesAndDuration;

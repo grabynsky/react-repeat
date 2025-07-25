@@ -1,11 +1,11 @@
 import './App.css'
 import type {FC} from "react";
-import CoursesAndDuration from "./components/CoursesAndDuration.tsx";
+import FamilyComponent from "./components/simpson/FamilyComponent.tsx";
 
 const App: FC = () => {
     return (
         <>
-            <CoursesAndDuration/>
+            <FamilyComponent/>
         </>
     );
 };

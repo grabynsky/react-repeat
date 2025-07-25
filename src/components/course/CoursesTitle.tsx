@@ -1,5 +1,5 @@
 import type {FC} from "react";
-import {coursesTitle} from "../data/coursesTitle.ts";
+import {coursesTitle} from "../../data/coursesTitle.ts";
 
 const CoursesTitle: FC = () => {
     return (
