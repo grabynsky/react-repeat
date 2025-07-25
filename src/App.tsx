@@ -1,11 +1,11 @@
 import './App.css'
-import CoursesTitle from "./components/CoursesTitle.tsx";
 import type {FC} from "react";
+import CoursesAndDuration from "./components/CoursesAndDuration.tsx";
 
 const App: FC = () => {
     return (
         <>
-            <CoursesTitle/>
+            <CoursesAndDuration/>
         </>
     );
 };
