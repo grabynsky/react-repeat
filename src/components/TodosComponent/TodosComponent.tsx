@@ -12,7 +12,6 @@ const TodosComponent = () => {
             .then(response => setTodos(response))
 
     })
-    console.log(todos)
     return (
         <div>
             {

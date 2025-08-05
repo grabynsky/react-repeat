@@ -1,11 +1,10 @@
 import './App.css'
-import type {FC} from "react";
-import TodosComponent from "./components/TodosComponent/TodosComponent.tsx";
+import PostsComponent from "./components/PostsComponent/PostsComponent.tsx";
 
-const App: FC = () => {
+const App = () => {
     return (
         <>
-            <TodosComponent/>
+            <PostsComponent/>
         </>
     );
 };
