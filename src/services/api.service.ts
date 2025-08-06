@@ -1,9 +1,8 @@
+import { urls } from "../constants/urls.ts";
 import type {IUser} from "../models/IUser.ts";
-
-const baseUrl = import.meta.env.VITE_API_BASE_URL;
 
 export const userService = {
     getUsers: async (): Promise<IUser[]> => {
-        return await fetch(baseUrl + '/users').then((res) => res.json());
+        return await fetch(urls.users.allUsers).then((res) => res.json());
     }
 }
