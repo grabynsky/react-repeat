@@ -7,6 +7,14 @@ export const urls = {
             return baseUrl + '/users/' + id;
         },
     },
-    posts: baseUrl + '/posts',
+    posts: {
+        allPosts: baseUrl + '/posts',
+        getAllPostsById: (id: number) => {
+            return baseUrl + '/posts?userId=' + id;
+        }
+    },
+    comments: {
+        allComments: baseUrl + '/comments',
+    }
 }
 

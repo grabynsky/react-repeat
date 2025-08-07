@@ -3,15 +3,18 @@ import MainLayout from "../layout/MainLayout.tsx";
 import UsersPage from "../pages/UsersPage.tsx";
 import PostsPage from "../pages/PostsPage.tsx";
 import HomePage from "../pages/HomePage.tsx";
-import SingleUserDetailsPage from "../pages/SingleUserDetailsPage.tsx";
+import CommentsPage from "../pages/CommentsPage.tsx";
+import ProductsPage from "../pages/ProductsPage.tsx";
+
 
 export const router = createBrowserRouter([
     {
         path: '/', element: <MainLayout/>, children: [
             {index: true, element: <HomePage/>},
             {path: 'users', element: <UsersPage/>},
-            {path: 'users/details', element: <SingleUserDetailsPage/>},
-            {path: 'posts', element: <PostsPage/>}
+            {path: 'posts', element: <PostsPage/>},
+            {path: 'comments', element: <CommentsPage/>},
+            {path: 'products', element: <ProductsPage/>}
         ]
     },
 
